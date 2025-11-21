@@ -13,13 +13,11 @@
 */
 
 
-public class QuerySidekick
-{
+public class QuerySidekick {
     String[] guesses = new String[5];  // 5 guesses from QuerySidekick
 
     // initialization of ...
-    public QuerySidekick()
-    {
+    public QuerySidekick() {
 
     }
 
@@ -27,16 +25,14 @@ public class QuerySidekick
     //
     // to remove extra spaces with one space
     // str2 = str1.replaceAll("\\s+", " ");
-    public void processOldQueries(String oldQueryFile)
-    {
+    public void processOldQueries(String oldQueryFile) {
      
     }
 
     // based on a character typed in by the user, return 5 query guesses in an array
     // currChar: current character typed in by the user
     // currCharPosition: position of the current character in the query, starts from 0
-    public String[] guess(char currChar, int currCharPosition)
-    {
+    public String[] guess(char currChar, int currCharPosition) {
 	
         return guesses;
     }
@@ -54,8 +50,7 @@ public class QuerySidekick
     // a.         true                correct query
     // b.         false               null
     // c.         false               correct query
-    public void feedback(boolean isCorrectGuess, String correctQuery)        
-    {
+    public void feedback(boolean isCorrectGuess, String correctQuery) {
 
     }
 
